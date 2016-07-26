@@ -1,14 +1,31 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+#welcome{
+    position: relative;
+    height: 65vh;
+    text-align: center;
+    padding-top: 50px;
+}
+.head-txt{
+  margin-top: 40px;
+}
+.a{
+  display: inline-block;
+  width: 200px;
+}
+  .ulfirst{
+    margin-left: 170px;
+  }
+  .a li{
+    list-style-type: square;
+    width: 20px;
+  }
+
+/*///////////////*/
+/*materialize*/
+/*///////////////*/
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  /*color: #444;*/
 }
 
 p {
