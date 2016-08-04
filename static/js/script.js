@@ -20,4 +20,13 @@ $(document).ready(function(){
         return false
     })
     $('.slider').slider({full_width: true});
+    $('.modal1').hover(
+        function(){
+            console.log('hovering')
+            $(this).append($('<p>1st Floor</p>'))
+        }, function(){
+            $(this).find('p:last').remove();
+        }
+    )
+    
 })

@@ -8,25 +8,28 @@
         <!--Import materialize.css-->
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
         <link href="css/style.css" rel="stylesheet">
+        <script src="http://maps.googleapis.com/maps/api/js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
 
         <div class="navbar-fixed">
-            <nav class="orange lighten" role="navigation">
+            <nav class="grey lighten" role="navigation">
                 <div class="nav-wrapper container"><a id="logo-container" href="" class="brand-logo">Bowling Green</a>
                     <ul class="right hide-on-med-and-down">
                         <li><a class='scroll2section1' href="">Apartments</a></li>
-                        <li><a class='scroll2section2' href="">Floor Plans</a></li>
-                        <li><a class='scroll2section3' href="">Contact</a></li>
-                        <li><a class='scroll2section4' href="">Section 4</a></li>
+                        <li><a class='scroll2section2' href="">Building Features</a></li>
+                        <li><a class='scroll2section3' href="">Floor Plans</a></li>
+                        <li><a class='scroll2section4' href="">Contact</a></li>
+                        <li><a class='scroll2section5' href="">Section 4</a></li>
                     </ul>
 
                     <ul id="nav-mobile" class="side-nav" style="left: 0px;">
                         <li><a class='scroll2section1' href="">Apartments</a></li>
-                        <li><a class='scroll2section2' href="">Floor Plans</a></li>
-                        <li><a class='scroll2section3' href="">Contact</a></li>
-                        <li><a class='scroll2section4' href="">Section 4</a></li>
+                        <li><a class='scroll2section2' href="">Building Features</a></li>
+                        <li><a class='scroll2section3' href="">Floor Plans</a></li>
+                        <li><a class='scroll2section4' href="">Contact</a></li>
+                        <li><a class='scroll2section5' href="">Section 4</a></li>
                     </ul>
                     <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
                 </div>
@@ -41,7 +44,7 @@
                     </div>
                 </div>
             </div>
-            <div class="parallax"><img src="img/seattle_01.jpg" alt="Unsplashed background img 2"></div>
+            <div class="parallax"><img src="img/bg_front_01.jpg" alt="Unsplashed background img 2"></div>
         </div>
 
         <div class="container" id='section1'>
@@ -50,13 +53,13 @@
                 <div class="col s12 center">
                     <h3><i class="mdi-content-send brown-text"></i></h3>
                     <h4>Make Madrona Home</h4>
-                    <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+                    <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget;</p>
                 </div>
                 </div>
             </div>
         </div>
 
-         <div class="banner parallax-container" id="welcome">
+         <div class="banner parallax-container">
             <div class="section no-pad-bot">
                 <div class="container">
                     <div class="row center">
@@ -67,28 +70,28 @@
             <div class="slider">
                 <ul class="slides">
                 <li>
-                    <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+                    <img src="img/bg_roof_01.jpg"> <!-- random image -->
                     <div class="caption center-align">
                     <h3>This is our big Tagline!</h3>
                     <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                     </div>
                 </li>
                 <li>
-                    <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+                    <img src="img/bg_roof_02.jpg"> <!-- random image -->
                     <div class="caption left-align">
                     <h3>Left Aligned Caption</h3>
                     <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                     </div>
                 </li>
                 <li>
-                    <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+                    <img src="img/bg_roof_03.jpg"> <!-- random image -->
                     <div class="caption right-align">
                     <h3>Right Aligned Caption</h3>
                     <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                     </div>
                 </li>
                 <li>
-                    <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+                    <img src="img/bg_roof_04.jpg"> <!-- random image -->
                     <div class="caption center-align">
                     <h3>This is our big Tagline!</h3>
                     <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
@@ -105,20 +108,21 @@
                 <div class="row">
                 <div class="col s12 center">
                     <h3><i class="mdi-content-send brown-text"></i></h3>
-                    <h4>Appartment Features</h4>
+                    <h4>Building Features</h4>
                     <ul class="a ulfirst">
-                        <li>sup</li>
-                        <li>sup</li>
-                        <li>sup</li>
-                        <li>sup</li>
-                        <li>sup</li>
+                        <li>Community roof deck, with lake and mountain views</li>
+                        <li>Community BBQ</li>
+                        <li>10 minutes to downtown</li>
+                        <li>Metro bus routes 2 and 3</li>
+                        <li>Across from Madrona Park and tennis courts</li>
                     </ul>
                     <ul class="a">
-                        <li>sup</li>
-                        <li>sup</li>
-                        <li>sup</li>
-                        <li>sup</li>
-                        <li>sup</li>
+                        <li>Great neighborhood restaurants</li>
+                        <li>Close to Lake Washington</li>
+                        <li>Cats ok, subject to approval, sorry no dogs.</li>
+                        <li>Storage lockers available</li>
+                        <li>Secure bike storage</li>
+                        <li>Underground parking garage</li>
                     </ul>
                 </div>
                 </div>
@@ -141,8 +145,17 @@
                 <div class="row">
                 <div class="col s12 center">
                     <h3><i class="mdi-content-send brown-text"></i></h3>
-                    <h4>Contact Us</h4>
-                    <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+                    <h4>Floor Plans</h4>
+                    <p id="hoverP">1st Floor</p>
+                    <div class="carousel carousel-slider">
+                        <a class="carousel-item" href="#one!"><img class="materialboxed" width="250" src="img\bg_1st_floor.png"></a>
+                        <a class="carousel-item" href="#two!"><img class="materialboxed" width="250" src="img\bg_2nd_floor.png"></a>
+                        <a class="carousel-item" href="#three!"><img class="materialboxed" width="250" src="img\bg_3rd_floor.png"></a>
+                    </div>
+                    <img class="materialboxed modal1" width="250" src="img\bg_1st_floor.png">
+                    <img class="materialboxed" width="250" src="img\bg_2nd_floor.png">
+                    <img class="materialboxed" width="250" src="img\bg_3rd_floor.png">
+                    <p class="left-align light">SUP Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
                 </div>
                 </div>
             </div>
@@ -158,13 +171,13 @@
             </div>
             <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 2"></div>
         </div>
-
+        <div id="googleMap" style="width:100%;height:380px;"></div>
         <div class="container">
             <div class="section" id='section4'>
                 <div class="row">
                 <div class="col s12 center">
                     <h3><i class="mdi-content-send brown-text"></i></h3>
-                    <h4>Contact Us</h4>
+                    <h4>Contact Us.</h4>
                     <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
                 </div>
                 </div>

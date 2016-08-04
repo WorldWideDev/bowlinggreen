@@ -9,25 +9,38 @@
 }
 .a{
   display: inline-block;
-  width: 200px;
+  width: 280px;
+  text-align: left;
+  vertical-align: top;  
 }
   .ulfirst{
-    margin-left: 170px;
+    margin-left: 120px;
   }
   .a li{
     list-style-type: square;
-    width: 20px;
+    width: 210px;
+  }
+.material-placeholder{
+  display: inline-block;
+}
+  #hoverP{
+    display: none;
+  }
+  .materialboxed:hover #hoverP{
+    display: initial;
   }
 
 /*///////////////*/
 /*materialize*/
 /*///////////////*/
 
-nav ul a,
 nav .brand-logo {
-  /*color: #444;*/
+  color: black;
+  font-weight: bold;
 }
-
+nav{
+  border-bottom: solid 3px orange;
+}
 p {
   line-height: 2rem;
 }
